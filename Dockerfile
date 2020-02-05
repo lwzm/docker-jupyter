@@ -1,4 +1,5 @@
 FROM alpine
+LABEL maintainer="lwzm@qq.com"
 
 RUN apk add --no-cache python3 py3-pyzmq \
     && pip3 install --no-cache-dir jupyter \
