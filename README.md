@@ -6,7 +6,7 @@ Run:
 docker run -p 8888:80 lwzm/jupyter
 ```
 
-Optional environment `PASSWORD` (default to `""`) could be set:
+Optional environment `PASSWORD` could be set:
 
 ```
 docker run -p 8888:80 -e PASSWORD="asdf" lwzm/jupyter
